@@ -17,10 +17,13 @@
 
 </head>
 <body>
-    <button id='button'>live broadcast</button>
-    
+    <input id='event'>
+    <input id="token">
+    <button id="submit">Submit</button>
+    <button id='getStream' style="display: none;">Start live broadcast</button>
+    <button id='goLive' style="display: none;" >Go Live</button> 
     <p id="video"></p>
-    <video id="yo" class="video-js vjs-default-skin"  autoplay
+    <video id="liveStream" class="video-js vjs-default-skin"  autoplay
     controls preload="auto" width="640" height="264"
     
     data-setup='{"example_option":true}'>
